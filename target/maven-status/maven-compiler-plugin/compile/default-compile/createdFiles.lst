@@ -2,4 +2,4 @@ myMain\Main.class
 model\University.class
 model\Student.class
 enums\StudyProfile.class
-readData\ReaderFile.class
+readData\FileReader.class
