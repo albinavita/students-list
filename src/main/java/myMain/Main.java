@@ -14,7 +14,6 @@ public class Main {
     private static final String FILE_NAME = "src/main/resources/universityInfo.xlsx";
 
     public static void main(String[] args) {
-
         try (FileInputStream stream = new FileInputStream(FILE_NAME)) {
             Workbook book = new XSSFWorkbook(stream);
 
